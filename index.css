@@ -1,0 +1,29 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.person-card {
+  background-color: #cffafe;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: "Roboto";
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 20px;
+}
